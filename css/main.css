@@ -1,0 +1,134 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+body {
+    background-color:lightgrey ;
+}
+
+/* start section */
+
+.card {
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 80px;
+    margin-left: 400px;
+    background-color: white;
+
+}
+
+.card .card-infoAbout {
+    width: 50%;
+    height: auto;
+    
+}
+
+.card .card-infoAbout img {
+    width: 100%;
+    height: 100%;
+}
+
+.card .card-infoAbout h1 {
+    font-size: 12px;
+    color: #000;;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.card .card-infoAbout h1 span {
+    font-size: 23px;
+    font-weight: bold;
+    color: gray;
+}
+
+.card .card-infoAbout p {
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-left: 20px;
+
+}
+
+.card .card-infoAbout h2 {
+
+    color: gray;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.card .card-infoAbout h2 span {
+    text-decoration: line-through;
+    font-size: 15px;
+    margin-left: 8px;
+
+}
+
+.card .card-infoAbout button {
+    border:  1px solid gray;
+    border-radius: 20px;
+    width: 45%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    transition: all 1s;
+    color: gray;
+}
+
+.card .card-infoAbout button:hover {
+
+    color:	#555555;
+    background-color: #848482;
+}
+
+/* end section */
+
+
+
+
+
+/* start responsive on the mobile phone */
+
+@media (max-width: 750px) {
+
+    body {
+        height: 1150px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .card .card-infoAbout {
+        width: 100%;
+        height: auto;
+    }
+
+    .card .card-infoAbout button {
+        margin-bottom: 20px;
+        padding-bottom: 9px;
+    }
+}
+
+/* end responsive on the mobile phone */
+
+
